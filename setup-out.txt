@@ -1,0 +1,24 @@
+=============================================
+Kreeda-Ankana Windows setup and build helper
+=============================================
+Loading environment variables from C:\Users\naren\OneDrive\Desktop\Kreeda-Ankana\.env
+After load: JAVA_HOME=C:\Program Files\jdk-24.0.1
+After load: ANDROID_SDK_ROOT=C:\Users\naren\AppData\Local\Android\Sdk
+
+Java:
+java version "24.0.1" 2025-04-15
+Java(TM) SE Runtime Environment (build 24.0.1+9-30)
+Java HotSpot(TM) 64-Bit Server VM (build 24.0.1+9-30, mixed mode, sharing)
+
+Android SDK root: C:\Users\naren\AppData\Local\Android\Sdk
+
+Checking required Android tools...
+sdkmanager OK
+avdmanager OK
+adb OK
+emulator OK
+
+Checking installed system image for Android 35...
+WARNING: Android 35 x86_64 system image is not installed.
+Install it with:
+  "C:\Users\naren\AppData\Local\Android\Sdk\cmdline-tools\latest\bin\sdkmanager.bat" "system-images;android-35;default;x86_64"
