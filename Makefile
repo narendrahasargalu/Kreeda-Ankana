@@ -18,15 +18,7 @@ AVD_NAME ?= Pixel_6
 PACKAGE_NAME ?= com.kreeda.ankana.debug
 
 help:
-	@Write-Host 'Available targets:'
-	@Write-Host '  make build         Build the debug APK'
-	@Write-Host '  make clean         Clean the project'
-	@Write-Host '  make emulator      Launch the Android emulator'
-	@Write-Host '  make adb-devices   List connected devices/emulators'
-	@Write-Host '  make install       Install the debug APK on a connected device/emulator'
-	@Write-Host '  make launch        Launch the app on a connected device/emulator'
-	@Write-Host '  make script        Run build-run-emulator.ps1 (build, emulator, install, launch)'
-	@Write-Host '  make run           Alias for make script'
+	@powershell.exe -NoProfile -Command "Write-Host 'Available targets:'; Write-Host 'make build         Build the debug APK (with dependency refresh)'; Write-Host 'make build-no-refresh Build the debug APK (without dependency refresh)'; Write-Host 'make build-without-clean Build the debug APK (without cleaning)'; Write-Host 'make clean         Clean the project (with dependency refresh)'; Write-Host 'make emulator      Launch the Android emulator (with dependency refresh)'; Write-Host 'make adb-devices   List connected devices/emulators (with dependency refresh)'; Write-Host 'make install       Install the debug APK on a connected device/emulator (with dependency refresh)'; Write-Host 'make launch        Launch the app on a connected device/emulator (with dependency refresh)'; Write-Host 'make script        Run build-run-emulator.ps1 (build, emulator, install, launch) (with dependency refresh)'; Write-Host 'make run           Alias for make script (with dependency refresh)'
 
 # working
 build:
