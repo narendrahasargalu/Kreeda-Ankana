@@ -29,7 +29,7 @@ if not exist "%GRADLEW%" (
 if not defined JAVA_HOME (
   echo WARNING: JAVA_HOME is not set.
   echo Recommended: set JAVA_HOME to your JDK 17 install directory.
-  set "JAVA_HOME=C:\Program Files\jdk-24.0.1"
+  set "JAVA_HOME=C:\Users\naren\.jdk\jdk-17.0.16"
 )
 if not exist "%JAVA_HOME%\bin\java.exe" (
   echo ERROR: Java not found at %JAVA_HOME%\bin\java.exe

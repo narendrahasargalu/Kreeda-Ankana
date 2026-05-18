@@ -16,12 +16,12 @@ call :loadDotEnv "%~dp0.env"
 
 
 set "ANDROID_SDK_ROOT=C:\Users\naren\AppData\Local\Android\Sdk"
-set "JAVA_HOME=C:\Program Files\jdk-24.0.1"
+set "JAVA_HOME=C:\Users\naren\.jdk\jdk-17.0.16"
 
 if not defined JAVA_HOME (
   echo WARNING: JAVA_HOME is not set.
   echo Recommended: set JAVA_HOME to your JDK 17 install directory.
-  set "JAVA_HOME=C:\Program Files\jdk-24.0.1"
+  set "JAVA_HOME=C:\Users\naren\.jdk\jdk-17.0.16"
 )
 if not exist "%JAVA_HOME%\bin\java.exe" (
   echo ERROR: Java not found at %JAVA_HOME%\bin\java.exe
@@ -39,7 +39,7 @@ if not exist "%ANDROID_SDK_ROOT%" (
 )
 
 set "ANDROID_SDK_ROOT=C:\Users\naren\AppData\Local\Android\Sdk"
-set "JAVA_HOME=C:\Program Files\jdk-24.0.1"
+set "JAVA_HOME=C:\Users\naren\.jdk\jdk-17.0.16"
 
 set "SDK_TOOLS=%ANDROID_SDK_ROOT%\cmdline-tools\latest\bin"
 set "PLATFORM_TOOLS=%ANDROID_SDK_ROOT%\platform-tools"

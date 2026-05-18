@@ -15,3 +15,8 @@ google-services.json
 .claude/
 .kotlin/
 .env
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo

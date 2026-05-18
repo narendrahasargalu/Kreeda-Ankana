@@ -103,7 +103,7 @@ sdkmanager --sdk_root="$ANDROID_SDK_ROOT" --licenses
 PowerShell example (session only):
 
 ```powershell
-$env:JAVA_HOME = 'C:\Program Files\jdk-24.0.1'
+$env:JAVA_HOME = 'C:\Users\naren\.jdk\jdk-17.0.16'
 $env:ANDROID_SDK_ROOT = "$env:USERPROFILE\Android\Sdk"
 $env:ANDROID_HOME = $env:ANDROID_SDK_ROOT
 $env:ANDROID_SDK_HOME = "$env:USERPROFILE\.android"
@@ -114,7 +114,7 @@ $env:Path = "$env:JAVA_HOME\bin;$env:ANDROID_SDK_ROOT\cmdline-tools\latest\bin;$
 Command Prompt example (session only):
 
 ```cmd
-set JAVA_HOME=C:\Program Files\jdk-24.0.1
+set JAVA_HOME=C:\Users\naren\.jdk\jdk-17.0.16
 set ANDROID_SDK_ROOT=%USERPROFILE%\Android\Sdk
 set ANDROID_HOME=%ANDROID_SDK_ROOT%
 set ANDROID_SDK_HOME=%USERPROFILE%\.android
